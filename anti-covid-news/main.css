@@ -1,0 +1,145 @@
+/************************** 
+            GLOBAL
+***************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ecf0f1;
+  color: #2d3436;
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 16px;
+}
+
+h1,
+h2 {
+  margin: 10px 0;
+}
+
+section {
+  margin: 20px 0;
+}
+
+/************************** 
+            NAV
+***************************/
+
+nav {
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  /* border-bottom: 1px solid; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  font-size: 22px;
+  text-transform: lowercase;
+  font-weight: 700;
+}
+
+li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+/**************************
+            MAIN
+***************************/
+
+main {
+  width: 80%;
+  margin: auto;
+  min-height: calc(100vh - 130px);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4rem 0;
+}
+
+/**************************
+            ABOUT
+***************************/
+
+.e-about {
+  width: 100%;
+  height: 80vh;
+  /* background: lightgray; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.e-perfil {
+  width: 40%;
+  height: 40%;
+  margin: 10px 0;
+  border: 1px solid red;
+
+  display: flex;
+  justify-content: center;
+}
+
+.e-perfil img {
+  width: 120px;
+  height: 120px;
+}
+
+.e-autor {
+
+}
+
+/**************************
+            NEWS
+***************************/
+
+.e-title--2 {
+  width: 100%;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.e-news {
+  /*#faffd1 */
+  background: #1dd1a1;
+  width: 100%;
+  height: 50vh;
+  border-radius: 20px;
+}
+
+.e-news__bg {
+  background: transparent;
+  border-radius: 0;
+}
+
+footer {
+  height: 15vh;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.e-group {
+  font-weight: 700;
+  display: inline-block;
+}
+.e-group p {
+  padding: 5px 0;
+}
