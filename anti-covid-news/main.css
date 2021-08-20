@@ -73,6 +73,10 @@ nav {
   align-items: center;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 nav span {
   font-size: 26px;
   font-weight: 700;
@@ -84,14 +88,20 @@ ul {
   font-size: 22px;
   text-transform: lowercase;
   font-weight: 700;
+  color: #000;
 }
 
-li {
+.item {
   display: inline-block;
   padding: 0 10px;
+  color: #000;
+  opacity: 1;
 }
 
-
+.item:hover {
+  color: #1dd1a1;
+  transition: color 0.1s;
+}
 
 /**************************
             MAIN
