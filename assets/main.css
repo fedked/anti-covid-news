@@ -17,13 +17,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
-  background: #ecf0f1;
+  background-color: #ecf0f1;
   color: #2d3436;
-  font-family: sans-serif, Arial, Helvetica;
   font-size: 16px;
+  font-family: sans-serif, Arial, Helvetica;
+  letter-spacing: 0.5px;
 }
 
 h1,
@@ -36,7 +38,7 @@ section {
 }
 
 button {
-  background: #fff;
+  background-color: #fff;
   color: #1dd1a1;
   border: none;
   width: 120px;
@@ -48,7 +50,6 @@ button a {
   color: #000;
   font-size: 16px;
   font-weight: 700;
-  text-decoration: none;
 }
 
 button:active {
@@ -71,17 +72,15 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-decoration: none;
 }
 
-.acn-link__logo {
+.acn-logo {
   font-size: 26px;
   font-weight: 700;
   color: #1dd1a1;
-  text-decoration: none;
 }
 
-.acn-list__ul {
+.acn-list {
   list-style: none;
   font-size: 22px;
   text-transform: lowercase;
@@ -89,17 +88,36 @@ nav {
   color: #000;
 }
 
-.acn-item__li {
+.acn-link {
   display: inline-block;
-  padding: 0 10px;
+  padding: 10px;
   color: #000;
   opacity: 1;
+  position: relative;
 }
 
-.acn-item__li:hover {
-  color: #1dd1a1;
-  transition: color 0.1s;
+.acn-link::after {
+  content: "";
+  position: absolute;
+  background-color: #1dd1a1;
+  height: 2px;
+  bottom: 2px;
+  width: 0;
+  transition: 0.3s;
 }
+
+.acn-link:hover {
+  color: #1dd1a1;
+}
+
+.acn-link:hover:after {
+  background-color: #000;
+  width: 80%;
+}
+
+/* .acn-link li:hover {
+  color: #1dd1a1;
+} */
 
 /**************************
             MAIN
@@ -229,7 +247,7 @@ main {
 }
 
 .acn-news {
-  background: #1dd1a1;
+  background-color: #1dd1a1;
   width: 40%;
   height: 600px;
   border-radius: 20px;
@@ -263,7 +281,7 @@ main {
 ***************************/
 
 .acn-section--2 {
-  background: #1dd1a1;
+  background-color: #1dd1a1;
   width: 90%;
   height: 400px;
   padding: 20px 60px;
@@ -274,7 +292,7 @@ main {
 }
 
 .acn-news__bg {
-  background: #fff;
+  background-color: #fff;
   margin: auto;
   border-radius: 20px;
   opacity: 1;
