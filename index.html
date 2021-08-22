@@ -7,16 +7,19 @@
 
     <title>Anti-Covid News - Notícias</title>
 
-    <link rel="stylesheet" href="assets/main.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/about.css" />
+    <link rel="stylesheet" href="assets/css/acn-news.css" />
   </head>
   <body>
     <header>
       <nav>
         <a class="acn-logo" href="index.html">Anti-Covid News</a>
         <ul class="acn-list">
-          <a class="acn-link" href="#about"><li>Sobre</li></a>
-          <a class="acn-link" href="#news"><li>Notícias</li></a>
-          <a class="acn-link" href="#contact"><li>Contato</li></a>
+          <a class="acn-link" href="about.html"><li>Sobre</li></a>
+          <a class="acn-link" href="#"><li>Contato</li></a>
+          <a class="acn-link" href="#"><li>Saiba Mais</li></a>
         </ul>
       </nav>
     </header>
@@ -34,77 +37,11 @@
         </p>
       </section>
 
-      <h1 id="about">Sobre</h1>
-
-      <section href="#about" class="acn-about">
-        <article class="acn-perfil">
-          <span class="acn-photo">
-            <img src="assets/images/medico.png" alt="Foto de Fernando Kendi" />
-          </span>
-          <span class="acn-autor">
-            <p>Fernando Kendi</p>
-            <a href="#"
-              ><img src="assets/images/linkedin.png" alt="Ícone de Linkedin"
-            /></a>
-          </span>
-        </article>
-
-        <article class="acn-perfil">
-          <span class="acn-photo">
-            <img src="assets/images/wagner.PNG" alt="Wagner Arajuo" />
-          </span>
-          <span class="acn-autor">
-            <p>Wagner Araujo</p>
-            <a
-              href="https://www.linkedin.com/in/wagner-araujo-de-sousa-jr-a47902141/"
-              ><img src="assets/images/linkedin.png" alt="Ícone de Linkedin"
-            /></a>
-          </span>
-        </article>
-
-        <article class="acn-perfil">
-          <span class="acn-photo">
-            <img src="assets/images/medico.png" alt="Danilla Edwirges" />
-          </span>
-          <span class="acn-autor">
-            <p>Danilla Edwirges</p>
-            <a href="#"
-              ><img src="assets/images/linkedin.png" alt="Ícone de Linkedin"
-            /></a>
-          </span>
-        </article>
-
-        <article class="acn-perfil">
-          <span class="acn-photo">
-            <img src="assets/images/medico.png" alt="Foto de Hélio Brito" />
-          </span>
-          <span class="acn-autor">
-            <p>Hélio Brito</p>
-            <a href="#"
-              ><img src="assets/images/linkedin.png" alt="Ícone de Linkedin"
-            /></a>
-          </span>
-        </article>
-
-        <article class="acn-perfil">
-          <span class="acn-photo">
-            <img src="assets/images/medico.png" alt="Bianca Silva" />
-          </span>
-          <span class="acn-autor">
-            <p>Bianca Silva</p>
-            <a href="#"
-              ><img src="assets/images/linkedin.png" alt="Ícone de Linkedin"
-            /></a>
-          </span>
-        </article>
-      </section>
-
       <h2 id="news" class="acn-title--2">Noticias</h2>
-
-      <!-- NOTICIA 1 -->
       <section class="acn-section--1">
+        <!-- NOTICIA 1 -->
         <section class="acn-news bg--1">
-          <article class="acn-news--1">
+          <article class="acn-screen--1">
             <img src="assets/images/vacina.jpg" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
@@ -121,7 +58,7 @@
 
         <!-- NOTICIA 2 -->
         <section class="acn-news bg--2">
-          <article class="acn-news--1">
+          <article class="acn-screen--1">
             <img src="assets/images/vacina.jpg" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
@@ -130,7 +67,7 @@
               sapien, sed gravida dui tempor sed. Morbi tincidunt lobortis erat,
               eget ullamcorper purus blandit in.
             </p>
-            <button title="Saiba mais">
+            <button class="btn--2" title="Saiba mais">
               <a href="#">Clique aqui</a>
             </button>
           </article>
@@ -138,31 +75,38 @@
       </section>
 
       <!-- NOTICIA 3 -->
-      <section class="acn-section--3">
-        <img class="imagem" src="assets/images/vacina.jpg" />
-        <section class="acn-news bg--3">
-          <article class="acn-news--3">
-            <!-- <img src="assets/images/vacina.jpg" /> -->
+      <section class="acn-section--2">
+        <iframe
+          class="acn-video"
+          width="500"
+          height="350"
+          src="https://www.youtube.com/embed/EM0voDeMO9E"
+        >
+        </iframe>
+        <section class="acn-circle">
+          <article class="acn-screen--2">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              pretium molestie leo, at gravida enim egestas a. Aenean id erat
-              faucibus, vestibulum ex vitae, placerat nibh. Nam aliquet diam
-              sapien, sed gravida dui tempor sed. Morbi tincidunt lobortis erat,
-              eget ullamcorper purus blandit in.
+              A Covid-19 ainda tem muitas incógnitas, mas o mundo já aprendeu
+              bastante com a pandemia. O HCor reuniu o máximo de informações
+              para criar um guia com tudo sobre o coronavírus: quais são os
+              sintomas, como se proteger e como enfrentar a pandemia.
             </p>
             <button title="Saiba mais">
-              <a href="#">Clique aqui</a>
+              <a
+                href="https://www.hcor.com.br/hcor-explica/outras/coronavirus/"
+                target="_blank"
+                >Clique aqui</a
+              >
             </button>
           </article>
         </section>
       </section>
 
       <!-- NOTICIA 4 -->
-      <section class="acn-section--4">
+      <section class="acn-section--2 row--2">
         <img class="imagem" src="assets/images/vacina.jpg" />
-        <section class="acn-news bg--4">
-          <article class="acn-news--4">
-            <!-- <img src="assets/images/vacina.jpg" /> -->
+        <section class="acn-circle c-white">
+          <article class="acn-screen--2">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
               pretium molestie leo, at gravida enim egestas a. Aenean id erat
@@ -177,28 +121,35 @@
         </section>
       </section>
 
-      <!-- NOTICIA 5 -->
-      <section class="acn-section--1">
-        <section class="acn-news bg--1">
-          <article class="acn-news--1">
-            <img src="assets/images/vacina.jpg" />
+      <section class="acn-section--2">
+        <iframe
+          class="acn-video"
+          width="500"
+          height="350"
+          src="https://www.youtube.com/embed/sLP_egjF7sM"
+        >
+        </iframe>
+        <section class="acn-circle">
+          <article class="acn-screen--2">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              pretium molestie leo, at gravida enim egestas a. Aenean id erat
-              faucibus, vestibulum ex vitae, placerat nibh. Nam aliquet diam
-              sapien, sed gravida dui tempor sed. Morbi tincidunt lobortis erat,
-              eget ullamcorper purus blandit in.
+              Estudo em comunidade do Rio de Janeiro mostra que a vacinação em
+              massa reduziu o número de casos de Covid19.
             </p>
             <button title="Saiba mais">
-              <a href="#">Clique aqui</a>
+              <a
+                href="https://twitter.com/tvbrasilgov/status/1428041696760135686?s=08"
+                >Clique aqui</a
+              >
             </button>
           </article>
         </section>
+      </section>
 
-        <!-- NOTICIA 6 -->
-        <section class="acn-news bg--2">
-          <article class="acn-news--1">
-            <img src="assets/images/vacina.jpg" />
+      <!-- NOTICIA 4 -->
+      <section class="acn-section--2 row--2">
+        <img class="imagem" src="assets/images/vacina.jpg" />
+        <section class="acn-circle c-white">
+          <article class="acn-screen--2">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
               pretium molestie leo, at gravida enim egestas a. Aenean id erat
@@ -215,9 +166,12 @@
     </main>
     <footer>
       <span>
+        <p>Equipe 3 - Anti-Covid News</p>
         <p>© 2021 - Todos os direitos reservados</p>
+        <p>
+          Programa de Formação Tech Itaú PCD em parceria com a Gama Academy.
+        </p>
       </span>
     </footer>
-    <script src="share-button.js"></script>
   </body>
 </html>

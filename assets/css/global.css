@@ -1,0 +1,73 @@
+/************************** 
+            GLOBAL
+***************************/
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1dd1a1;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #eeeeee;
+  color: #223333;
+  font-size: 16px;
+  font-family: sans-serif, Arial, Helvetica;
+  letter-spacing: 0.5px;
+}
+
+h1,
+h2 {
+  margin: 2rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  line-height: 30px;
+}
+
+section {
+  margin: 4rem 0;
+}
+
+button {
+  background-color: #fff;
+  color: #1dd1a1;
+  border: none;
+  width: 120px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+button a {
+  color: #223333;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+button:active {
+  color: #223333;
+}
+
+img {
+  border-radius: 40px;
+}
+
+@media (max-width: 575.98px) {
+  section {
+    margin: 4rem 0;
+  }
+}
