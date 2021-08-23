@@ -49,11 +49,16 @@
 .acn-screen--1 {
   width: 100%;
   height: 100%;
+  text-align: justify;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.acn-screen--1 h4 {
+  width: 80%;
 }
 
 .acn-screen--1 img {
@@ -64,7 +69,6 @@
 
 .acn-screen--1 p {
   width: 60%;
-  text-align: justify;
 }
 
 .acn-screen--1 button {
@@ -128,11 +132,12 @@
 .acn-screen--2 {
   width: 100%;
   height: 100%;
+  text-align: justify;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .acn-screen--2 img {
@@ -141,9 +146,12 @@
   border: 2px solid #fff;
 }
 
+.acn-screen--2 h4 {
+  width: 80%;
+}
+
 .acn-screen--2 p {
-  width: 60%;
-  text-align: justify;
+  width: 80%;
 }
 
 .acn-screen--2 button {
@@ -174,7 +182,6 @@
   }
   .acn-screen--1 p {
     width: 80%;
-    text-align: justify;
   }
   .acn-section--2 {
     width: 100%;
@@ -238,7 +245,11 @@
   }
   .acn-video {
     width: 380px;
-    height: 260px;
+    height: auto;
+  }
+  .acn-audio {
+    width: 350px;
+    height: 180px;
   }
   .acn-screen--1 img {
     max-width: 250px;
@@ -275,12 +286,15 @@
     margin-bottom: 2rem;
   }
   .acn-video {
-    width: 380px;
-    height: 260px;
+    width: 300px;
+    height: 200px;
+  }
+  .acn-audio {
+    width: 310px;
+    height: 164px;
   }
   .acn-screen--1 p {
     width: 90%;
-    text-align: justify;
   }
   .acn-screen--1 img {
     max-width: 220px;

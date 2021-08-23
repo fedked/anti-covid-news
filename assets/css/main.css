@@ -94,7 +94,8 @@ main {
 .acn-home p {
   width: 50%;
   text-align: justify;
-  line-height: 28px;
+  line-height: 32px;
+  padding: 20px 0;
 }
 
 .acn-home img {
