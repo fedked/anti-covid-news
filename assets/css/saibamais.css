@@ -10,10 +10,10 @@
   height: 100%;
   width: 100%;
   text-align: center;
-
+  
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -53,5 +53,8 @@
   .acn-fontes {
     height: 100%;
     width: 100%;
+  }
+  .acn-fontes ol {
+    margin-top: 4rem;
   }
 }
