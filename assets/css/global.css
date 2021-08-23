@@ -17,6 +17,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -66,7 +69,10 @@ img {
   border-radius: 40px;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 999px) {
+  body {
+    overflow-x: hidden;
+  }
   section {
     margin: 4rem 0;
   }

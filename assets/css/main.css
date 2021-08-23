@@ -22,6 +22,8 @@ nav {
   font-size: 22px;
   text-transform: lowercase;
   font-weight: 700;
+  /* letter-spacing: 3px; */
+  display: flex;
 }
 
 .acn-link {
@@ -146,11 +148,6 @@ footer p {
 }
 
 @media (max-width: 767.98px) {
-  nav {
-    width: 90%;
-    height: 60px;
-    margin: 0 auto;
-  }
   .acn-home {
     width: 100%;
     height: auto;
@@ -166,11 +163,6 @@ footer p {
 }
 
 @media (max-width: 575.98px) {
-  nav {
-    width: 80%;
-    height: 60px;
-    margin: 0 auto;
-  }
   .acn-home {
     width: 100%;
     height: auto;
