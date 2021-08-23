@@ -24,6 +24,7 @@
     justify-content: space-evenly;
     transform: translateY(-120%);
     transition: transform 0.3s;
+    z-index: 1;
   }
   .nav-list li {
     margin-left: 0;

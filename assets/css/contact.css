@@ -1,4 +1,12 @@
-.container {
+.acn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
+}
+
+.typeform-widget {
+  width: 100%;
+  height: 800px;
 }

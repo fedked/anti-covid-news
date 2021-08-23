@@ -2,7 +2,7 @@
             NAV
 ***************************/
 nav {
-  width: 80%;
+  width: 90%;
   height: 60px;
   margin: 0 auto;
 
@@ -32,6 +32,7 @@ nav {
   color: #2d3436;
   opacity: 1;
   position: relative;
+  margin: 0 15px;
 }
 
 .acn-link::after {
@@ -57,9 +58,9 @@ nav {
             MAIN
 ***************************/
 main {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  min-height: calc(100vh - 90px);
+  min-height: calc(100vh - 233px);
 }
 
 /**************************
@@ -106,29 +107,6 @@ main {
 }
 
 /**************************
-        FOOTER
-***************************/
-footer {
-  background: #223333;
-  color: #fff;
-  height: 20vh;
-  text-align: center;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer span {
-  font-weight: 700;
-  display: inline-block;
-}
-
-footer p {
-  padding: 5px 0;
-}
-
-/**************************
         MOBILE
 ***************************/
 
@@ -142,9 +120,6 @@ footer p {
     text-align: justify;
     line-height: 28px;
   }
-  footer {
-    height: 30vh;
-  }
 }
 
 @media (max-width: 767.98px) {
@@ -156,9 +131,6 @@ footer p {
     width: 100%;
     text-align: justify;
     line-height: 28px;
-  }
-  footer {
-    height: 30vh;
   }
 }
 
@@ -179,8 +151,5 @@ footer p {
     text-align: justify;
     line-height: 32px;
     margin: 2rem 0;
-  }
-  footer {
-    height: 30vh;
   }
 }

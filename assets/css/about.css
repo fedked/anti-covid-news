@@ -1,8 +1,3 @@
-main {
-  width: 100%;
-  min-height: calc(100vh - 279px);
-}
-
 .acn-about {
   width: 100%;
   height: 50vh;
@@ -50,7 +45,7 @@ main {
     flex-wrap: wrap;
   }
   .acn-perfil {
-    width: 40%;
+    width: 50%;
     margin: 2rem 0;
     flex-wrap: wrap;
   }
@@ -65,8 +60,5 @@ main {
   .acn-perfil img {
     width: 160px;
     height: 160px;
-  }
-  footer {
-    height: 30vh;
   }
 }

@@ -69,11 +69,37 @@ img {
   border-radius: 40px;
 }
 
-@media (max-width: 999px) {
+/**************************
+        FOOTER
+***************************/
+footer {
+  background: #223333;
+  color: #fff;
+  height: 24vh;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer span {
+  font-weight: 700;
+  display: inline-block;
+}
+
+footer p {
+  padding: 5px 0;
+}
+
+@media screen and (min-width: 575.98px) {
   body {
     overflow-x: hidden;
   }
   section {
     margin: 4rem 0;
   }
+  /* footer {
+    height: 100%;
+  } */
 }

@@ -4,24 +4,22 @@ class MobileNavbar {
     this.navList = document.querySelector(navList);
     this.navLinks = document.querySelectorAll(navLinks);
     this.activeClass = "active";
-    
-    this.handleClick = this.handleClick.bind(this);
 
+    this.handleClick = this.handleClick.bind(this);
   }
 
   animatedLinks() {
     this.navLinks.forEach((link) => {
       link.style.animation
-      ? (link.style.animation = "")
-      : (link.style.animation = `navLinkFade 0.5s ease forwards 0.3s`)
+        ? (link.style.animation = "")
+        : (link.style.animation = `navLinkFade 0.5s ease forwards 0.3s`);
     });
   }
-  
+
   handleClick() {
     this.navList.classList.toggle(this.activeClass);
-    this.mobileMenu.classList.toggle(this.activeClass)
+    this.mobileMenu.classList.toggle(this.activeClass);
     this.animatedLinks();
-
   }
 
   addClickEvent() {
