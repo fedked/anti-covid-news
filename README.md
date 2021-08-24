@@ -37,4 +37,4 @@ Visual Studio Code
   - [Wagner Araújo de Sousa](https://github.com/jsawagner)
   - [Danilla Edwirges](https://github.com/DanillaEdwirges)
   - [Bianca da Silva Costa ](https://github.com/Biasilvacosta)
-  - [Hélio Assunção](https://github.com/nataliciojr)
+  - [Hélio Assunção](https://github.com/helioBAssuncao)
