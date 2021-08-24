@@ -1,4 +1,4 @@
-# Projeto Final Itaú Formação Tech 3° Edição
+# Projeto Final de Desafio - Formação Itaú Tech PCD 3° Edição
 ## Site de notícias Covid-19
 ### Anti-Covid News
 
