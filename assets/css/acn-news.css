@@ -140,7 +140,6 @@
   .acn-news {
     width: 35%;
     height: 600px;
-    margin: 0 2rem;
   }
   .acn-screen--1 img {
     max-width: 250px;
@@ -207,7 +206,7 @@
   .acn-news {
     width: 80%;
     height: 650px;
-    margin-bottom: 2rem;
+    margin: 4rem 0;
   }
   .acn-video {
     width: 480px;

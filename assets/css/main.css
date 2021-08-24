@@ -22,7 +22,7 @@ nav {
   font-size: 22px;
   text-transform: lowercase;
   font-weight: 700;
-  /* letter-spacing: 3px; */
+  letter-spacing: 3px;
   display: flex;
 }
 
@@ -60,7 +60,7 @@ nav {
 main {
   width: 90%;
   margin: 0 auto;
-  min-height: calc(100vh - 233px);
+  min-height: calc(100vh - 279px);
 }
 
 /**************************
@@ -76,9 +76,7 @@ main {
 }
 .acn-home h1 {
   font-size: 32px;
-  text-align: center;
   line-height: 42px;
-  margin-top: 2rem;
 }
 .acn-home h1 span {
   border-bottom: 2px solid #1dd1a1;
@@ -103,6 +101,7 @@ main {
 
 .acn-home img {
   width: 30%;
+  margin: 2rem 0;
 }
 
 /**************************
@@ -134,7 +133,6 @@ main {
   }
   .acn-home p {
     width: 80%;
-    text-align: justify;
     line-height: 28px;
   }
 }
@@ -146,7 +144,6 @@ main {
   }
   .acn-home h1 {
     font-size: 26px;
-    text-align: center;
     line-height: 42px;
     margin-top: 2rem;
   }
@@ -156,7 +153,6 @@ main {
   .acn-home p {
     font-size: 16px;
     width: 90%;
-    text-align: justify;
     line-height: 32px;
     margin: 2rem 0;
   }

@@ -11,6 +11,25 @@
   transition: 0.3s;
 }
 
+.nav-list.active {
+  transform: translateY(0);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/**************************
+        MOBILE
+***************************/
+
 @media (max-width: 999px) {
   .nav-list {
     position: absolute;
@@ -35,19 +54,5 @@
   }
   .acn-link:hover {
     color: #fff;
-  }
-}
-.nav-list.active {
-  transform: translateY(0);
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateY(-100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
   }
 }

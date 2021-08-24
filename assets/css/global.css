@@ -44,7 +44,7 @@ p {
 }
 
 section {
-  margin: 4rem 0;
+  margin: 2rem 0;
 }
 
 button {
@@ -73,7 +73,7 @@ button:active {
 footer {
   background: #223333;
   color: #fff;
-  height: 24vh;
+  height: 20vh;
   text-align: center;
 
   display: flex;
@@ -90,14 +90,18 @@ footer p {
   padding: 5px 0;
 }
 
-@media screen and (min-width: 575.98px) {
+/**************************
+        Mobile
+***************************/
+
+@media (max-width: 575.98px) {
   body {
     overflow-x: hidden;
   }
   section {
-    margin: 4rem 0;
+    margin: 2rem 0;
   }
-  /* footer {
+  footer {
     height: 100%;
-  } */
+  }
 }
