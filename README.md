@@ -3,7 +3,7 @@
 ### Anti-Covid News
 
 <p style="text-align: center">
-  <img src="assets/images/acn.logo-png" alt="Logotipo de anti-covid e nome de site Anti-Covid News">
+  <img src="/assets/images/acn-logo.png" alt="Logotipo de anti-covid e nome de site Anti-Covid News">
 </p>
 
 #### DESCRIÇÃO
