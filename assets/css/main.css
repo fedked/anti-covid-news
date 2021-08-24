@@ -95,7 +95,7 @@ main {
   transition: border 0.3s;
 }
 .acn-home p {
-  width: 50%;
+  width: 80%;
   text-align: justify;
   line-height: 32px;
   padding: 20px 0;
@@ -114,6 +114,9 @@ main {
     width: 100%;
     height: auto;
   }
+  .acn-home img {
+    width: 60%;
+  }
   .acn-home p {
     width: 80%;
     text-align: justify;
@@ -126,8 +129,11 @@ main {
     width: 100%;
     height: auto;
   }
+  .acn-home img {
+    width: 60%;
+  }
   .acn-home p {
-    width: 100%;
+    width: 80%;
     text-align: justify;
     line-height: 28px;
   }
@@ -149,7 +155,7 @@ main {
   }
   .acn-home p {
     font-size: 16px;
-    width: 90%;
+    width: 80%;
     text-align: justify;
     line-height: 32px;
     margin: 2rem 0;
