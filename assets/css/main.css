@@ -12,9 +12,10 @@ nav {
 }
 
 .acn-logo {
-  font-size: 26px;
-  font-weight: 700;
-  color: #1dd1a1;
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+  height: 70px;
 }
 
 .acn-list {

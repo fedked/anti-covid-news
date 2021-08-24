@@ -60,12 +60,14 @@
 
 .acn-screen--1 h4 {
   width: 80%;
+  line-height: 32px;
 }
 
 .acn-screen--1 img {
   max-width: 250px;
   height: 150px;
   border: 2px solid #fff;
+  border-radius: 40px;
 }
 
 .acn-screen--1 p {
@@ -100,6 +102,7 @@
   max-width: 350px;
   height: 200px;
   border: 2px solid #fff;
+  border-radius: 40px;
 }
 
 .acn-circle {
