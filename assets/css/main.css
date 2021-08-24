@@ -12,10 +12,9 @@ nav {
 }
 
 .acn-logo {
-  position: relative;
-  top: 2rem;
-  left: 2rem;
-  height: 70px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #1dd1a1;
 }
 
 .acn-list {
@@ -103,8 +102,7 @@ main {
 }
 
 .acn-home img {
-  width: 250px;
-  height: 250px;
+  width: 30%;
 }
 
 /**************************
@@ -145,6 +143,9 @@ main {
     text-align: center;
     line-height: 42px;
     margin-top: 2rem;
+  }
+  .acn-home img {
+    width: 80%;
   }
   .acn-home p {
     font-size: 16px;
