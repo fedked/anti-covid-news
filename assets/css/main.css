@@ -95,7 +95,7 @@ main {
   transition: border 0.3s;
 }
 .acn-home p {
-  width: 80%;
+  width: 50%;
   text-align: justify;
   line-height: 32px;
   padding: 20px 0;
