@@ -94,10 +94,13 @@ footer p {
         Mobile
 ***************************/
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   body {
     overflow-x: hidden;
   }
+}
+
+@media (max-width: 575.98px) {
   section {
     margin: 2rem 0;
   }
