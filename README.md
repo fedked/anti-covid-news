@@ -10,7 +10,7 @@
 
 Um projeto de site de notícias com 6 melhores notícias positivas sobre o COVID-19. Feito em puro CSS, HTML e JavaScript. 
 
-O nome do site de notícias se chama Anti-Covid News, essa ideia é fazer o combate contra COVID-19 e dar as noticias verdadeiras e confiáveis.
+O nome do site de notícias se chama Anti-Covid News, a ideia é para combater contra fake news relacionado ao COVID-19, proporcionando notícias confiáveis e verdadeiras.
 
 #### OBJETIVO
 
