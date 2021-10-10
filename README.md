@@ -33,7 +33,7 @@ Visual Studio Code
 **Nome do grupo:** Grupo Itaú ACN
 
 - **Membros**
-  - [Fernando Kendi](https://github.com/fedkendi)
+  - [Fernando Kendi Utida](https://github.com/fedkendi)
   - [Wagner Araújo de Sousa](https://github.com/jsawagner)
   - [Danilla Edwirges](https://github.com/DanillaEdwirges)
   - [Bianca da Silva Costa ](https://github.com/Biasilvacosta)
